@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionHelper", "ReflectionHelper\ReflectionHelper.csproj", "{E05CBF15-B8C3-4946-9C95-5E7DE74A9388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestAssemblies", "TestAssemblies", "{D8D6C554-7E59-4D85-BF83-0E48571FEE91}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestShared", "TestShared\TestShared.shproj", "{742C12FB-306F-47F3-8450-878C4A889FD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetTestClassLibrary", "NetTestClassLibrary\NetTestClassLibrary.csproj", "{43C8F4C9-B992-4DD2-8436-02037DBEBA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkTestClassLibrary", "NetFrameworkTestClassLibrary\NetFrameworkTestClassLibrary.csproj", "{0E510647-9C4B-433F-AA0E-E5C66B00EA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkTestClassLibrary.Tests", "NetFrameworkTestClassLibrary.Tests\NetFrameworkTestClassLibrary.Tests.csproj", "{6DCD32C2-8E1A-496B-9F61-6F55CBA2FC11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionHelper.core", "ReflectionHelper.core\ReflectionHelper.core.csproj", "{75D6CDC7-DC3F-45A5-9FFF-72580FFAAC38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionHelper.Core.Tests", "ReflectionHelper.Core.Tests\ReflectionHelper.Core.Tests.csproj", "{33227A2A-3199-4CAA-B684-36143635FDD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionHelper", "SolutionHelper\SolutionHelper.csproj", "{F125B071-1CF8-42F2-AF0A-3F34A5E2EF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionHelper.Core", "SolutionHelper.Core\SolutionHelper.Core.csproj", "{2C30A8A4-3427-4CFD-9154-02D24B57AC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionHelper.Core.Tests", "SolutionHelper.Core.Tests\SolutionHelper.Core.Tests.csproj", "{92A15EFE-9B46-46EC-8B1F-6B4999E72A2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E05CBF15-B8C3-4946-9C95-5E7DE74A9388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05CBF15-B8C3-4946-9C95-5E7DE74A9388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05CBF15-B8C3-4946-9C95-5E7DE74A9388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05CBF15-B8C3-4946-9C95-5E7DE74A9388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C8F4C9-B992-4DD2-8436-02037DBEBA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C8F4C9-B992-4DD2-8436-02037DBEBA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C8F4C9-B992-4DD2-8436-02037DBEBA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C8F4C9-B992-4DD2-8436-02037DBEBA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E510647-9C4B-433F-AA0E-E5C66B00EA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E510647-9C4B-433F-AA0E-E5C66B00EA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E510647-9C4B-433F-AA0E-E5C66B00EA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E510647-9C4B-433F-AA0E-E5C66B00EA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCD32C2-8E1A-496B-9F61-6F55CBA2FC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCD32C2-8E1A-496B-9F61-6F55CBA2FC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCD32C2-8E1A-496B-9F61-6F55CBA2FC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCD32C2-8E1A-496B-9F61-6F55CBA2FC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D6CDC7-DC3F-45A5-9FFF-72580FFAAC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D6CDC7-DC3F-45A5-9FFF-72580FFAAC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D6CDC7-DC3F-45A5-9FFF-72580FFAAC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D6CDC7-DC3F-45A5-9FFF-72580FFAAC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33227A2A-3199-4CAA-B684-36143635FDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33227A2A-3199-4CAA-B684-36143635FDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33227A2A-3199-4CAA-B684-36143635FDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33227A2A-3199-4CAA-B684-36143635FDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F125B071-1CF8-42F2-AF0A-3F34A5E2EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F125B071-1CF8-42F2-AF0A-3F34A5E2EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F125B071-1CF8-42F2-AF0A-3F34A5E2EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F125B071-1CF8-42F2-AF0A-3F34A5E2EF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C30A8A4-3427-4CFD-9154-02D24B57AC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C30A8A4-3427-4CFD-9154-02D24B57AC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C30A8A4-3427-4CFD-9154-02D24B57AC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C30A8A4-3427-4CFD-9154-02D24B57AC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A15EFE-9B46-46EC-8B1F-6B4999E72A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A15EFE-9B46-46EC-8B1F-6B4999E72A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A15EFE-9B46-46EC-8B1F-6B4999E72A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A15EFE-9B46-46EC-8B1F-6B4999E72A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{742C12FB-306F-47F3-8450-878C4A889FD9} = {D8D6C554-7E59-4D85-BF83-0E48571FEE91}
+		{43C8F4C9-B992-4DD2-8436-02037DBEBA8F} = {D8D6C554-7E59-4D85-BF83-0E48571FEE91}
+		{0E510647-9C4B-433F-AA0E-E5C66B00EA07} = {D8D6C554-7E59-4D85-BF83-0E48571FEE91}
+		{6DCD32C2-8E1A-496B-9F61-6F55CBA2FC11} = {D8D6C554-7E59-4D85-BF83-0E48571FEE91}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4675296-973E-4A59-8995-D6DE38E8324C}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestShared\TestShared.projitems*{742c12fb-306f-47f3-8450-878c4a889fd9}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

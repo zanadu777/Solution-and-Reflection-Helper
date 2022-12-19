@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\TestShared\InternalClass.cs" Link="InternalClass.cs" />
+    <Compile Include="..\TestShared\PrivateClass.cs" Link="PrivateClass.cs" />
+    <Compile Include="..\TestShared\WithProperties.cs" Link="WithProperties.cs" />
+  </ItemGroup>
+
+</Project>
